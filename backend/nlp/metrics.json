@@ -1,0 +1,182 @@
+{
+  "samples_total": 248,
+  "train": 186,
+  "test": 62,
+  "near_duplicates_removed_from_test": 0,
+  "accuracy": 0.6613,
+  "cv_accuracy_train_mean": 0.634,
+  "macro_precision": 0.6711,
+  "macro_recall": 0.6654,
+  "macro_f1": 0.642,
+  "per_class": {
+    "correct_code": {
+      "precision": 0.636,
+      "recall": 0.875,
+      "f1-score": 0.737,
+      "support": 8.0
+    },
+    "debug_code": {
+      "precision": 0.583,
+      "recall": 0.778,
+      "f1-score": 0.667,
+      "support": 9.0
+    },
+    "explain_code": {
+      "precision": 1.0,
+      "recall": 0.429,
+      "f1-score": 0.6,
+      "support": 7.0
+    },
+    "explain_complexity": {
+      "precision": 0.556,
+      "recall": 0.714,
+      "f1-score": 0.625,
+      "support": 7.0
+    },
+    "explain_error": {
+      "precision": 0.778,
+      "recall": 0.778,
+      "f1-score": 0.778,
+      "support": 9.0
+    },
+    "general_question": {
+      "precision": 0.625,
+      "recall": 0.625,
+      "f1-score": 0.625,
+      "support": 8.0
+    },
+    "generate_tests": {
+      "precision": 0.857,
+      "recall": 1.0,
+      "f1-score": 0.923,
+      "support": 6.0
+    },
+    "optimize_code": {
+      "precision": 0.333,
+      "recall": 0.125,
+      "f1-score": 0.182,
+      "support": 8.0
+    }
+  },
+  "labels": [
+    "correct_code",
+    "debug_code",
+    "explain_code",
+    "explain_complexity",
+    "explain_error",
+    "general_question",
+    "generate_tests",
+    "optimize_code"
+  ],
+  "confusion_matrix": [
+    [
+      7,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      2,
+      3,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      7,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      1,
+      5,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+    ],
+    [
+      1,
+      3,
+      0,
+      3,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "hybrid_rules_plus_ml": {
+    "accuracy": 0.6774,
+    "macro_precision": 0.6985,
+    "macro_recall": 0.6811,
+    "macro_f1": 0.6651
+  },
+  "mean_confidence_correct": 0.597,
+  "threshold_analysis": {
+    "0.3": {
+      "coverage": 0.839,
+      "accuracy_on_covered": 0.75
+    },
+    "0.4": {
+      "coverage": 0.677,
+      "accuracy_on_covered": 0.762
+    },
+    "0.45": {
+      "coverage": 0.645,
+      "accuracy_on_covered": 0.775
+    },
+    "0.5": {
+      "coverage": 0.565,
+      "accuracy_on_covered": 0.771
+    },
+    "0.6": {
+      "coverage": 0.468,
+      "accuracy_on_covered": 0.793
+    }
+  }
+}

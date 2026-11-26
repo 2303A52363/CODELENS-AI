@@ -1,0 +1,249 @@
+text,intent
+Why am I getting this error?,explain_error
+What does this error message mean?,explain_error
+I don't understand the traceback,explain_error
+Can you explain the error on the screen?,explain_error
+Why did my program crash with an exception?,explain_error
+What caused this exception?,explain_error
+Explain why the compiler is complaining,explain_error
+Help me understand what this error is telling me,explain_error
+What is a NameError and why did I get it?,explain_error
+Why does it say invalid syntax?,explain_error
+The red error text makes no sense to me,explain_error
+Tell me the reason behind this runtime error,explain_error
+What went wrong on that line according to the error?,explain_error
+Why is it throwing an index out of range message?,explain_error
+Break down this compile error in simple words,explain_error
+I keep seeing the same error and want to know why,explain_error
+What exactly does the failure message say?,explain_error
+Please clarify the cause of this exception,explain_error
+How come division by zero happened here?,explain_error
+Interpret this error output for me,explain_error
+Why is the interpreter refusing to run my file?,explain_error
+What is the meaning of segmentation fault in my run?,explain_error
+Why do I see a type mismatch complaint?,explain_error
+Describe what happened when my program failed,explain_error
+Find the bugs in my code,debug_code
+My program runs but the output is wrong,debug_code
+Why is my code not working?,debug_code
+Can you debug this for me?,debug_code
+Check my code for mistakes,debug_code
+Something is off in my logic but I cannot find it,debug_code
+Look through my program and point out problems,debug_code
+The loop never ends and I don't know why,debug_code
+My function returns the wrong value,debug_code
+Is there any bug hiding in this code?,debug_code
+Help me track down why the result is incorrect,debug_code
+The program prints nothing and I am confused,debug_code
+Review this code and tell me what is broken,debug_code
+Scan my solution for logical errors,debug_code
+Why does my sorting give the wrong order?,debug_code
+I think there is an off by one problem somewhere,debug_code
+Walk me through debugging this program,debug_code
+Detect any issues in what I wrote,debug_code
+My answer differs from the expected one so something is wrong,debug_code
+Please inspect my script for defects,debug_code
+Fix the error in my code,correct_code
+Correct my program,correct_code
+Give me the corrected version of this code,correct_code
+Rewrite my code so it works,correct_code
+Please repair the syntax mistakes,correct_code
+Can you fix this for me?,correct_code
+Show me the working version,correct_code
+Generate the fixed program,correct_code
+Patch my code so the error goes away,correct_code
+Update the code to remove the bug,correct_code
+I want the complete corrected code,correct_code
+Make this program compile,correct_code
+Produce a version without errors,correct_code
+Solve the problem in my code and show me the result,correct_code
+Replace the wrong line with the right one,correct_code
+Could you clean up the errors and give me the final code?,correct_code
+Amend the script so it runs properly,correct_code
+Turn this broken code into something that works,correct_code
+Apply the fix and send back the whole file,correct_code
+Make this program faster,optimize_code
+Optimize my code,optimize_code
+How can I improve the performance of this function?,optimize_code
+Can this run more efficiently?,optimize_code
+Reduce the running time of my solution,optimize_code
+Suggest a better algorithm for this,optimize_code
+My code is too slow on large inputs,optimize_code
+Rewrite this to use less memory,optimize_code
+Is there a more efficient way to write this loop?,optimize_code
+Speed up this program please,optimize_code
+Improve the efficiency of the query,optimize_code
+Get rid of the unnecessary computations,optimize_code
+Make it run quicker without changing the output,optimize_code
+How do I cut down on the repeated work here?,optimize_code
+Find a performance bottleneck and improve it,optimize_code
+Tune this code for speed,optimize_code
+I would like a leaner version of my program,optimize_code
+Replace the nested loops with something better,optimize_code
+Explain the time complexity,explain_complexity
+What is the big O of this code?,explain_complexity
+How much time does this algorithm take as n grows?,explain_complexity
+Tell me the space complexity,explain_complexity
+Is this solution linear or quadratic?,explain_complexity
+Analyze the complexity of my function,explain_complexity
+What is the worst case running time here?,explain_complexity
+How does memory usage scale in this program?,explain_complexity
+Why is this O of n squared?,explain_complexity
+Compare the complexity before and after,explain_complexity
+Give me the asymptotic cost of this recursion,explain_complexity
+What are the best case and average case for this?,explain_complexity
+Does this loop run in logarithmic time?,explain_complexity
+Estimate the algorithmic efficiency of my code,explain_complexity
+How many operations will it do for an input of size n?,explain_complexity
+Calculate the order of growth,explain_complexity
+Generate test cases for this program,generate_tests
+Give me some inputs to test my code,generate_tests
+Create edge cases for this function,generate_tests
+What test data should I try?,generate_tests
+Write unit tests for my solution,generate_tests
+Suggest boundary values to check,generate_tests
+I need sample inputs and expected outputs,generate_tests
+Produce a set of tests including invalid input,generate_tests
+How should I test this properly?,generate_tests
+List normal and corner cases I should run,generate_tests
+Come up with test scenarios for this code,generate_tests
+Build a test suite for the program,generate_tests
+Which inputs could break my function?,generate_tests
+Prepare cases to verify correctness,generate_tests
+Explain this code,explain_code
+Explain the fifth line,explain_code
+What does this program do?,explain_code
+Walk me through the code line by line,explain_code
+What is happening inside this loop?,explain_code
+Describe the purpose of this function,explain_code
+Can you tell me how this code works?,explain_code
+Break down what line 3 does,explain_code
+Summarize the logic of my program,explain_code
+I do not understand this snippet. What does it do?,explain_code
+What does the second statement mean?,explain_code
+Help me read this code,explain_code
+Clarify the role of each variable here,explain_code
+Teach me how this algorithm works step by step,explain_code
+Describe the flow of the program,explain_code
+What is the difference between a list and a tuple?,general_question
+How do I read input in Java?,general_question
+What is recursion?,general_question
+When should I use a dictionary?,general_question
+Explain what a pointer is in C,general_question
+How does a SQL join work?,general_question
+What is object oriented programming?,general_question
+Which language is best for beginners?,general_question
+What is the difference between let and var?,general_question
+How do I reverse a string in Python?,general_question
+Tell me about stack versus heap memory,general_question
+What does the static keyword mean in Java?,general_question
+Can you recommend resources to learn data structures?,general_question
+What is a primary key in a database?,general_question
+How do closures work in JavaScript?,general_question
+Why are HTML semantic tags important?,general_question
+what does the message at the bottom of the console say,explain_error
+my terminal shows a long red message and I need it translated to plain english,explain_error
+why was an exception raised on this line,explain_error
+tell me what the compiler diagnostic means,explain_error
+could you decode this stack trace,explain_error
+what is a TypeError and why is it appearing,explain_error
+the build failed and I want to know the reason,explain_error
+how come I got a key error,explain_error
+why am I seeing unexpected token,explain_error
+explain what undefined reference means here,explain_error
+this warning confuses me what is it about,explain_error
+why does python say unindent does not match,explain_error
+what triggered the null pointer exception,explain_error
+the output says expected semicolon what does that tell me,explain_error
+my program is giving wrong answers can you find out why,debug_code
+something is wrong with my code but there is no error message,debug_code
+hunt down the mistake in my algorithm,debug_code
+the counter is never updated properly please investigate,debug_code
+why does my code skip the last element,debug_code
+the condition seems to be evaluated incorrectly in my program,debug_code
+could there be a logical flaw in what I wrote,debug_code
+it works for small inputs but fails for others find the reason,debug_code
+test my code mentally and tell me where it breaks,debug_code
+I get the same value every time which should not happen,debug_code
+check if my recursion has a missing base case,debug_code
+look for problems like unused variables or unreachable code,debug_code
+my if statement is always true and I do not know why,debug_code
+please act as a code reviewer and list the faults,debug_code
+give me the full corrected program,correct_code
+rewrite the whole thing with the bug removed,correct_code
+output the fixed script in full,correct_code
+please correct the mistakes and let me copy the result,correct_code
+turn my buggy file into a version that runs,correct_code
+change the wrong operator and return the complete code,correct_code
+can you repair this and keep everything else the same,correct_code
+fix the compile errors and show me the final source,correct_code
+I want you to solve the error automatically,correct_code
+provide a corrected copy of my submission,correct_code
+adjust my program so it produces the right output,correct_code
+resolve the syntax problem and write out the new code,correct_code
+make my code run without errors,correct_code
+give me an updated working file,correct_code
+this is too slow can you make it quicker,optimize_code
+shrink the memory footprint of my solution,optimize_code
+find a way to do this in fewer steps,optimize_code
+could the nested loops be replaced by a hash map,optimize_code
+improve how fast the sql query returns,optimize_code
+cut the runtime of this function,optimize_code
+my solution times out on big data can you help,optimize_code
+rewrite for better efficiency but same behaviour,optimize_code
+avoid recomputing the same value again and again,optimize_code
+suggest performance improvements,optimize_code
+streamline this algorithm,optimize_code
+make the program lighter and faster,optimize_code
+which part of my code wastes time,optimize_code
+how fast is this code as the input gets bigger,explain_complexity
+state the time and space cost of my program,explain_complexity
+is the runtime of this function exponential,explain_complexity
+what order of growth does this recursion have,explain_complexity
+tell me how the work scales with n,explain_complexity
+would you say this is n log n,explain_complexity
+which big o notation fits this loop,explain_complexity
+why is the complexity quadratic here,explain_complexity
+how much extra memory does this use,explain_complexity
+describe the efficiency class of this algorithm,explain_complexity
+what is the big o of the binary search part,explain_complexity
+analyse the running time in best and worst cases,explain_complexity
+how does the cost change if the list doubles,explain_complexity
+what should I feed into this program to check it,generate_tests
+make me a table of inputs and expected results,generate_tests
+write test cases covering empty and negative values,generate_tests
+give some tricky inputs for this function,generate_tests
+suggest a few checks to confirm my code is right,generate_tests
+create assertions for this method,generate_tests
+generate sample data to try the program with,generate_tests
+what are the edge conditions I should verify,generate_tests
+design tests for zero one and large values,generate_tests
+propose inputs that might expose hidden bugs,generate_tests
+I need a testing checklist for this code,generate_tests
+what does each part of this program do,explain_code
+tell me what the while loop is for,explain_code
+describe what the code on line 7 is doing,explain_code
+how does this function produce its result,explain_code
+give me a plain language summary of the script,explain_code
+why is this variable declared here,explain_code
+what is the role of the return statement in this code,explain_code
+can you narrate the program execution,explain_code
+what is going on in the third line,explain_code
+describe the logic behind this snippet in simple words,explain_code
+what does this class represent,explain_code
+explain the working of this code to a beginner,explain_code
+how do I connect to a database in python,general_question
+what are the main differences between c and c plus plus,general_question
+what is a lambda function,general_question
+what is the meaning of polymorphism,general_question
+how can I learn javascript quickly,general_question
+what are the types of sql joins,general_question
+how do I install node on windows,general_question
+what is the use of the main method in java,general_question
+how do css flexbox and grid differ,general_question
+what is a hash table,general_question
+how does garbage collection work,general_question
+what does git commit do,general_question
+what is the best way to practice coding,general_question
+explain what an api is,general_question
+what is a pointer to pointer,general_question
